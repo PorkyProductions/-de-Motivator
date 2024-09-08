@@ -2,9 +2,9 @@ import type { bool } from './types';
 
 window.addEventListener("load", async () => await import("@capacitor/core"))
 window.addEventListener("load", async () => {
-    const { wait } = await import('@porkyproductions/hat/dist/wait');
+    const { wait } = await import('@porkyproductions/hat/wait');
     wait(10);
-    console.clear()
+    // console.clear()
     wait(5, () => console.log(`%c
         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWWWWMMMMMMMMMMMMMMMMMMMMMM
         MMMMMMMMMMMMMMMMMMMMMNKOxdolcc::,,,,;;cxNMMMMMMMMMMMMMMMMMMM
